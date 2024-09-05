@@ -123,6 +123,16 @@
 		overflow: hidden;
 		overflow-y: scroll;
 	}
+
+	.footer_contents nav {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer_list {
+		display: none;
+	}
 }
 
 @media (max-width: 700px) {
@@ -165,6 +175,10 @@
 
 	.breaking_news_title {
 		margin: 25px 0;
+	}
+
+	.footer_image h3 {
+		font-size: 16px;
 	}
 }
 
